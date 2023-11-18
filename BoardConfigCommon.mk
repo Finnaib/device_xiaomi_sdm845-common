@@ -47,8 +47,8 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 TARGET_KERNEL_ADDITIONAL_FLAGS += HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 TARGET_KERNEL_ADDITIONAL_FLAGS := LLVM_IAS=1
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := prelude
-KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-prelude/bin
+TARGET_KERNEL_CLANG_VERSION := r450784d
+KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r450784d/bin
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 
 # Platform
